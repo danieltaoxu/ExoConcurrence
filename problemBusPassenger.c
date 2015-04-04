@@ -88,7 +88,7 @@ void *busAction(void *bptr){
 
 
 
-int main(int argc, char *argv[]){
+int main(){
     int i;
     pthread_t passenger[N], bus;
     pthread_mutex_init(&mtx_getdown_passenger, NULL);
